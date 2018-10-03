@@ -180,3 +180,9 @@ Need to some credential if you want to create container until registered on you 
 cd ecs-script
 cat Makefile
 ```
+You can see the Makefile command, if you want to run the command you just need to using **make** command, 
+for example : Build your docker image with this command below.
+But in the behind will be running **"docker build -t $(SERVICE_NAME) "**
+```bash
+make build_image
+```
